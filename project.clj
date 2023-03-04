@@ -3,16 +3,16 @@
     ; This breaks cljcdoc: https://github.com/cljdoc/cljdoc/issues/407
     ; Frozen until issue is resolved.
     ;[com.github.fommil.netlib/all "1.1.2" :extension "pom"]
-    [org.apache.spark/spark-avro_2.12 "3.1.1"]
-    [org.apache.spark/spark-core_2.12 "3.1.1"]
-    [org.apache.spark/spark-hive_2.12 "3.1.1"]
-    [org.apache.spark/spark-mllib_2.12 "3.1.1"]
-    [org.apache.spark/spark-sql_2.12 "3.1.1"]
-    [org.apache.spark/spark-streaming_2.12 "3.1.1"]
+    [org.apache.spark/spark-avro_2.12 "3.2.1"]
+    [org.apache.spark/spark-core_2.12 "3.2.1"]
+    [org.apache.spark/spark-hive_2.12 "3.2.1"]
+    [org.apache.spark/spark-mllib_2.12 "3.2.1"]
+    [org.apache.spark/spark-sql_2.12 "3.2.1"]
+    [org.apache.spark/spark-streaming_2.12 "3.2.1"]
     ; Arrow
-    [org.apache.arrow/arrow-memory-netty "3.0.0"]
-    [org.apache.arrow/arrow-memory-core "3.0.0"]
-    [org.apache.arrow/arrow-vector "3.0.0"
+    [org.apache.arrow/arrow-memory-netty "8.0.0"]
+    [org.apache.arrow/arrow-memory-core "8.0.0"]
+    [org.apache.arrow/arrow-vector "8.0.0"
      :exclusions [commons-codec com.fasterxml.jackson.core/jackson-databind]]
     ; Databases
     [mysql/mysql-connector-java "8.0.23"]
@@ -32,7 +32,7 @@
                  [expound "0.8.9"]
                  [metosin/jsonista "0.3.3"
                   :exclusions [com.fasterxml.jackson.core/jackson-databind]]
-                 [com.taoensso/nippy "3.1.1"]
+                 [com.taoensso/nippy "3.2.1"]
                  [nrepl "0.8.3"]
                  [org.clojure/clojure "1.10.3"]
                  [org.clojure/java.data "1.0.86"]

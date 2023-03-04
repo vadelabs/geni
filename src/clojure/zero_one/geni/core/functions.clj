@@ -9,7 +9,8 @@
                             second
                             sequence
                             struct
-                            when])
+                            when
+                            abs])
   (:require
    [potemkin :refer [import-fn]]
    [zero-one.geni.core.column :refer [->col-array ->column]]
